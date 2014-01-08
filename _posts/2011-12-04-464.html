@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'Guest Post: Lessons Learned from Bulk Parsing and Database Insertion'
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+<em>This article originates from <a href="http://christophersaunders.ca/2011/12/04/lessons-learned-from-bulk-parsing-and-database-insertion/">christophersaunders.ca</a></em>
+
+I'm beginning to work on an STO application from an API that was created by <a href="http://twitter.com/philippec">Philippe Casgrain</a>.  The data was stored in a pretty big JSON file, and I decided that instead of breaking it into smaller pieces I would simply insert everything into an SQLite database.  Previously the only time I had worked with Android databases had simply been via insertions with ContentValues, which is a lot slower than I had thought at first.
+
+Previously this is what I was doing
+<pre id="java" class="prettyprint">
+void insertData(List<Foo> objects, SQLiteDatabase db) { 
+    ContentValues cvs = new ContentValues();
+    for(Foo obj : objects){
+        cvs.put("FooStringColumn", obj.fooString());
+        cvs.put("FooIntegerColumn", obj.fooInteger()); 
+        long result = db.insertWithOnConflict("Foo", null, cvs, SQLiteDatabase.CONFLICT_REPLACE);
+    }
+}
+</pre>
+
+This works alright, though when you are generating thousands of entries from your JSON data it results in something that's so slow it's painful.  At first I thought my problems were stemming from using the <code>org.json</code> tools included in Android so I switched over to using <a href="http://code.google.com/p/google-gson/">Google GSON</a> instead, which did help reduce a ton of unnecessary garbage collection.  Though, everything was still slow.
+
+My database knowledge isn't extremely deep, and I recall being able to compile <a href="http://developer.android.com/reference/java/sql/PreparedStatement.html">PreparedStatements</a> to speed up interaction with the DB.  After a bit of searching on the internet I came across an alternative way of doing database insertion using this thing known as an <a href="http://developer.android.com/reference/android/database/DatabaseUtils.InsertHelper.html">InsertHelper</a>.  Using an InsertHelper is pretty straightforward, though it requires writing a bit more code than ContentValues, but it's way faster.
+
+<pre id="java" class="prettyprint">
+void insertData(List<Foo> objects, SQLiteDatabase db){
+    InsertHelper helper = new InsertHelper(db, "Foo");
+    final int fooStrCol = helper.getColumnIndex("FooStringColumn");
+    final int fooIntCol = helper.getColumnIndex("FooIntegerColumn");
+    for(Foo obj : objects){
+        helper.prepareForInsert();
+        helper.bind(fooStrCol, obj.fooString());
+        helper.bind(fooIntCol, obj.fooInteger());
+        helper.execute();
+    }
+}
+</pre>
+
+To also help speed things up, I extracted all of my data first then inserted everything in a transaction.  This helped reduce overhead and I was able to get the database initialized in about 10 seconds.  Surely I can speed it up further, but for now this seems to solve my problems.
+
+<strong>References</strong>
+<ul>
+<li><a href="http://www.outofwhatbox.com/blog/2010/12/android-using-databaseutils-inserthelper-for-faster-insertions-into-sqlite-database/">Android: Using DatabaseUtils.InsertHelper for faster insertions into SQLite database</a></li>
+<li><a href="http://stackoverflow.com/questions/3501516/android-sqlite-database-slow-insertion">Android SQLite database: slow insertion</a></li>
+</ul>
