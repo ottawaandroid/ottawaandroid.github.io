@@ -1,0 +1,19 @@
+/* TEAM */
+                            
+Organizer: Marc Meszaros                        
+Site: http://about.me/MarcMeszaros                         
+Twitter: @MarcMeszaros                        
+Location: Ottawa, Canada
+
+
+/* THANKS */
+
+Shopify
+Meeting are ususally held at the Shopify head office.
+Name: http://www.shopify.com
+
+                            
+/* SITE */
+Standards: HTML5, CSS3                   
+Components: Jekyll, jQuery                            
+Software: Sublime Text 2

@@ -1,3 +1,8 @@
 name: Ottawa Android
 markdown: redcarpet
 pygments: true
+
+permalink: "/:year/:month/:day/:title/" # matches wordpress
+paginate: 5 # matches wordpress
+paginate_path: "page/:num" # matches wordpress
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'style.scss'] # files to exclude

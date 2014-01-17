@@ -1,1 +1,7 @@
+## Editors/OS ##
+.DS_Store
+Thumbs.db
+
+## Generated Files ##
+.sass-cache/
 _site/
