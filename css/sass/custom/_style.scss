@@ -24,7 +24,8 @@ body{
 }
 
 main.container, main.content > .container{
-    width:50em;
+    width:60em;
+    padding-bottom: 5em;
 }
 
 hr{
@@ -174,7 +175,7 @@ hr{
 .home-icon{
 
      font-size: 2.2em;
-     margin: 1.9em 0 -1.1em 1em;
+     margin: 1.4em 0 -1.1em 1em;
      float: left;
      background-color: $greenSpotify;
      padding: 0.65em;
@@ -188,7 +189,7 @@ hr{
 
 .post{
 
-    width: 40em;
+    width: 50em;
     float: right;
 
     h5{
@@ -202,7 +203,7 @@ hr{
     h2{
         font-family: 'Raleway';
         font-weight: normal;
-        font-size: 4em;
+        font-size: 3em;
         padding: 1.1em 0 0.2em;
         letter-spacing: 0.05em;
         color: $greenSpotify;
@@ -219,7 +220,7 @@ hr{
         color: darken($grayLight, 10%);
 
         h2{
-            font-size:2em;
+            font-size:1.75em;
         }
     }
 }
@@ -229,7 +230,7 @@ hr{
 
 footer .container{
     color: $white;
-    padding: 2em 0;
+    padding: 2em 0 1em 0;
     font-size: 0.8em;
     text-align: center;
 
