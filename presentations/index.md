@@ -7,6 +7,10 @@ published: true
 ---
 Various topics have been covered by speakers at Ottawa Android meetings. You can see a few of them listed below. Some even include links to source code and slides from that presentation. **Note: Older presentations may reference/use older Android SDK versions and may not be the "new" way of doing things.**
 
+2014
+----
+* [Gradle](https://docs.google.com/presentation/d/18rSnTgIzRw3gnNbPf5feO5Ta_2_MXLtld5jWRi3JefE/pub?start=false&loop=false&delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2014-01-15)
+
 2013
 ----
 * [NFC Debug](https://github.com/jpuderer/Tutorials/tree/master/NFCDebug) - by [James Puderer](http://github.com/jpuderer) (2013-11-20)
