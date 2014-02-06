@@ -4,8 +4,8 @@ The Ottawa Android website and blog.
 
 Development
 ===========
-To run a local copy of the site while developing, execute ``jekyll server`` in the
-project root directory.
+To run a local copy of the site while developing, execute ``jekyll server --watch`` 
+in the project root directory.
 
 You can have sass watch for file changes when working on the CSS by executing
 ``sass --watch css/style.scss:css/style.css --style compressed`` in another terminal.
