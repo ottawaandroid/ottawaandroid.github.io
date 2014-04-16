@@ -15,3 +15,7 @@ The next meeting is one week away. We only have one presentation scheduled:
 * SQLite 3.7 development with Android - Larry Burge
 
 If you are interested in presenting let us know by [email](mailto:organizers@ottawaandroid.ca) or on the [subreddit](http://reddit.com/r/ottawaandroid)!
+
+Post Meeting Notes:
+
+[Register for Startup Weekend Ottawa](http://ottawa.startupweekend.org/) - [Questions? Email the Organizers!](mailto:ottawa@startupweekend.org)
