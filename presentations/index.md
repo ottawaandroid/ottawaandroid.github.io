@@ -5,18 +5,23 @@ status: publish
 type: page
 published: true
 ---
-Various topics have been covered by speakers at Ottawa Android meetings. You can see a few of them listed below. Some even include links to source code and slides from that presentation. **Note: Older presentations may reference/use older Android SDK versions and may not be the "new" way of doing things.**
+Various topics have been covered by speakers at Ottawa Android meetings. You can see a few of them listed below. Some even include links to source code and slides from that presentation. 
+
+**Some presentations may be outdated and reference old Android APIs and SDKs.**
 
 2014
 ----
+* [SQLite Development with Android](/files/presentations/2014/SQLiteApril16.odp) ([SQLite Manager Source](/files/presentations/2014/sqlite-manager.zip)) - by Larry Burge (2014-04-16)
+
 * [Gradle](https://docs.google.com/presentation/d/18rSnTgIzRw3gnNbPf5feO5Ta_2_MXLtld5jWRi3JefE/pub?start=false&loop=false&delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2014-01-15)
 
 2013
 ----
 * [NFC Debug](https://github.com/jpuderer/Tutorials/tree/master/NFCDebug) - by [James Puderer](http://github.com/jpuderer) (2013-11-20)
-* [REST Clients (Retrofit)](https://docs.google.com/presentation/d/1zEHm94L5Y2waNjEVClmvw_k1ZfvjLlSnhT2641hOmSA/pub?start=false&amp;loop=false&amp;delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2012-10-16)
 
-* [Photo Apps](https://docs.google.com/presentation/d/1x2so9pJmyI4cEq4EkpEEzypjxn3z42NWy4V6jOojUTA/pub?start=false&amp;loop=false&amp;delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2012-08-21)
+* [REST Clients (Retrofit)](https://docs.google.com/presentation/d/1zEHm94L5Y2waNjEVClmvw_k1ZfvjLlSnhT2641hOmSA/pub?start=false&amp;loop=false&amp;delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2013-10-16)
+
+* [Photo Apps](https://docs.google.com/presentation/d/1x2so9pJmyI4cEq4EkpEEzypjxn3z42NWy4V6jOojUTA/pub?start=false&amp;loop=false&amp;delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2013-08-21)
 
 2012
 ----
