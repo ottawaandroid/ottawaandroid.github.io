@@ -10,5 +10,5 @@ published: true
 ---
 We have a few presentations scheduled this month:
 
-Android Development 101 - Marc Meszaros
-Android Unified Computing - [Noyan Balay](http://ouchfire.com)
+* Android Development 101 - Marc Meszaros
+* Android Unified Computing - [Noyan Balay](http://ouchfire.com)
