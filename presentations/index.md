@@ -11,6 +11,8 @@ Various topics have been covered by speakers at Ottawa Android meetings. You can
 
 2014
 ----
+* [Android 101](https://docs.google.com/presentation/d/1aYttFBP8xT39jUwViITvgOrjd5-Ch9lR-XDiGkWb0xE/pub?start=false&loop=false&delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2014-05-21)
+
 * [SQLite Development with Android](/files/presentations/2014/SQLiteApril16.odp) ([SQLite Manager Source](/files/presentations/2014/sqlite-manager.zip)) - by Larry Burge (2014-04-16)
 
 * [Gradle](https://docs.google.com/presentation/d/18rSnTgIzRw3gnNbPf5feO5Ta_2_MXLtld5jWRi3JefE/pub?start=false&loop=false&delayms=3000) - by [Marc Meszaros](http://marcmeszaros.ca/) (2014-01-15)
