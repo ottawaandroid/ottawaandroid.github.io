@@ -10,7 +10,7 @@ Ottawa Android is made possible by:
 For providing us with hosting of the Ottawa Android website.
 <h3><a href="http://marcmeszaros.ca/">Marc Meszaros</a></h3>
 For registering the ottawaandroid domain.
-<h3><a href="http://graphitesoftware.com/">Graphite Software</a></h3>
+<h3><a href="http://graphitesoftware.com/"><img src="../img/GraphiteSoftware.png" border="0" alt="Graphite Software"/></a></h3>
 For our <a href="http://www.meetup.com/Ottawa-Android/">Meetup.com Page</a>
 <h3><a href="http://oreilly.com">O'Reilly</a></h3>
 We are a member of the O'Reilly User Group program, and as such get access to perks such as:
