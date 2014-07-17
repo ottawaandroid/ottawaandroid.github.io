@@ -9,4 +9,4 @@ We meet <strong>every month</strong> on the <strong>3rd Wednesday at the Shopify
 
 We cover a wide range of topics, from Android internals to mobile web applications (targeting Android of course!) The meetings are free to attend. Developers of all skill levels are welcome.
 
-If you are interested in presenting something at the next meeting <a href="mailto:ottawaandroid@librelist.com">simply join our mailing list</a> and make a proposal or <a title="Contact Us" href="/contact-us/">contact the organizers</a>.
+If you are interested in presenting something at the next meeting <a href="mailto:ottawaandroid@librelist.com">simply join our mailing list</a> and make a proposal or <a title="Contact Us" href="/contact/">contact the organizers</a>.
