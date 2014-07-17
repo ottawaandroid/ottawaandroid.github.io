@@ -9,6 +9,10 @@ published: true
 
 The Ottawa Android developers group aims to bring the community together to share their knowledge of the platform to help everyone become more proficient with it. We aim to provide demonstrations of various features within the Android API as well as personal projects that fellow developers are working on.
 
+## Is there a Meetup.com group? ##
+
+Yes, we have a meetup group. Please join at [Ottawa-Android](http://www.meetup.com/Ottawa-Android/) it helps us keep you informed of future meetings. 
+
 ## Where do these meetings happen? ##
 
 We meet up at [The Shopify Lounge](https://maps.google.com/maps/ms?msid=209288105145349267145.0004c71bddecdaa2d5b10&amp;msa=0&amp;ll=45.429112,-75.689798&amp;spn=0.000771,0.001206) on the third Wednesday of every month.
