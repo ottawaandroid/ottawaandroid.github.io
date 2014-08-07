@@ -1,6 +1,6 @@
 ---
 layout: post
-title: August 29th Meeting – 6:30pm @ Shopify Offices
+title: August 20th Meeting – 6:30pm @ Shopify Offices
 categories:
 - nextmeeting
 tags: []
