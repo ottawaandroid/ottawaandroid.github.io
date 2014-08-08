@@ -10,6 +10,10 @@ Ottawa Android is made possible by:
 For providing us with hosting of the Ottawa Android website.
 <h3><a href="http://marcmeszaros.ca/">Marc Meszaros</a></h3>
 For registering the ottawaandroid domain.
+<h3><a href="http://www.macadamian.com/"><img src="../img/Macadamian.png" border="0" alt="Macadamian"/></a></h3>
+Meeting venue and sponsorship.
+<h3><a href="http://shopify.com/"><img src="../img/Shopify.png" border="0" alt="Shopify"/></a></h3>
+Meeting venue and sponsorship.
 <h3><a href="http://graphitesoftware.com/"><img src="../img/GraphiteSoftware.png" border="0" alt="Graphite Software"/></a></h3>
 For our <a href="http://www.meetup.com/Ottawa-Android/">Meetup.com Page</a>
 <h3><a href="http://oreilly.com">O'Reilly</a></h3>
