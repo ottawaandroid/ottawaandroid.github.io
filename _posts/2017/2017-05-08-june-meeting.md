@@ -15,7 +15,7 @@ Hey folks, We're back!!!
 
 After a long hiatus, Android Ottawa is back in business.
 
-The first meeting will be taking place on Tuesday, May 6th. Doors open/pizza served at 6:30pm. Talks will start at **7pm**.
+The first meeting will be taking place on Tuesday, June 6th. Doors open/pizza served at 6:30pm. Talks will start at **7pm**.
 
 Meeting will take place at 150 Elgin street on the 6th floor in the Shopify office.
 
